@@ -67,7 +67,6 @@ jobs:
 
       - name: Build
         env:
-          # 仅用于构建期占位；不会访问后端
           API_SERVER: http://127.0.0.1:8080
         run: pnpm run build
 
